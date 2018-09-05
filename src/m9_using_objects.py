@@ -57,11 +57,13 @@ def circle_and_rectangle():
     rectangle = rg.Rectangle(rg.Point(50, 50), rg.Point(150, 150))
     rectangle.attach_to(win)
     win.render()
+    cc = circle.center
+    rc = rectangle.get_center()
 
     win.close_on_mouse_click()
 
-    print(circle.outline_thickness, "\n", circle.fill_color, "\n", circle.center, "\n", '200.0', "\n", '200.0')
-    print(rectangle.outline_thickness, "\n", rectangle.fill_color, "\n", rectangle.get_center(), "\n", '100.0', "\n", '100.0')
+    print(circle.outline_thickness, "\n", circle.fill_color, "\n", cc, "\n", cc.x, "\n", cc.y)
+    print(rectangle.outline_thickness, "\n", rectangle.fill_color, "\n", rc, "\n", rc.x, "\n", rc.y)
 
 
     """
@@ -113,7 +115,8 @@ def lines():
     line2.thickness = 5
     line2.attach_to(win)
     win.render()
-    print(line2.get_midpoint(), "\n", '130.0', "\n", '130.0')
+    m = line2.get_midpoint()
+    print(m, "\n", m.x, "\n", m.y)
     win.close_on_mouse_click()
 
     """
