@@ -25,38 +25,32 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
 #
 #        -- In what direction on the screen
 #           does the positive Y-axis point?
-#              up
+#              down
 #
 #     b. Write a line of code that constructs a RoseWindow object:
 #            window = rg.RoseWindow(100, 100, 'test window')
 #
-#     c. What is the default height of a RoseWindow?
-#        (Use the HOVER trick to determine the answer to this question.)
-#            height = 300
 #
-#     d. Write a line of code that construct a RoseWindow object
-#        whose height is 100:  (Use the HOVER trick to figure it out)
-#            window = rg.RoseWindow(400, 100)
 #
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that
 #             you can construct OTHER than Circle and Point:
-#                SimpleTurtle() and Pen('color', thickness)
+#                Line and Rectangle
 #
 #          -- Write the names of three METHODs that Circle objects have:
-# ??????               pen down, move, turn
+# ??????               attach to, clone, detach from
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-# ??????               center, radius, fill_color
+#                center, radius, fill_color
 #
 #     f. What does a RoseWindow RENDER method do?
 #            draws the stored data onto the window to help with animations
 #
 #     g. When is a RoseWindow close_on_mouse_click method call
 #        necessary?  Why?
-#            when you have multiple windows because they all open and close at the same time without it
+#            when you have multiple windows because they all open and become cluttered and easily confusable
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
