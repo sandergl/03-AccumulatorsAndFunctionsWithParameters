@@ -39,7 +39,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
 #                Line and Rectangle
 #
 #          -- Write the names of three METHODs that Circle objects have:
-# ??????               attach to, clone, detach from
+#                attach to, clone, detach from
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
